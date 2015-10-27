@@ -1,0 +1,45 @@
+
+
+public class ClassO
+{
+
+	public static void main(String[] args)
+	{
+		//Circle bigCircle = new Circle();
+		Circle bigCircle;
+		bigCircle =new Circle();
+		
+		
+		System.out.println("Big circle's radius is " + bigCircle.m_radius);
+		System.out.println("Big circle's color is " + bigCircle.m_color);
+		System.out.println("Big circle's area is " + bigCircle.CalculateArea());
+		bigCircle.PrintColor();
+
+		Circle smallcircle = new Circle();
+		System.out.println("Small circle's radius is " + bigCircle.m_radius);
+		System.out.println("Small circle's color is " + bigCircle.m_color);
+
+	
+		System.out.println("Big circle's area is" + bigCircle.CalculateArea());
+
+		smallcircle.PrintColor();
+	}
+	
+	
+	public static class Circle
+	{
+		String m_clor = null;
+		double m_radius = -1;
+		private String m_color;
+	
+		private String CalculateArea() 
+		{
+			return null;
+		}
+
+		private void PrintColor() 
+		{
+			
+		}
+	}
+}
