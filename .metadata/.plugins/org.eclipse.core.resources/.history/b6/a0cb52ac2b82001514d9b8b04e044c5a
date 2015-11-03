@@ -4,7 +4,7 @@ public class Assignment {
 	public static void main(String[] args)
 	{
 		ReverseOutOfPlace("cool whip");
-        
+        ReverseInPlace("cool whip");
 	
 	}
 	
@@ -28,8 +28,18 @@ public class Assignment {
 	 
 	 
 	
-
+		 public static void ReverseInPlace(String originalString);
 	 
+		 if (originalString != null)
+		 {
+			 char temp = characters[j];
+			 characters[j] = characters[i];
+			 characters[i] = temp;
+			 
+		 }
+		 
+	 String reversedString = new String(characters);
+	 System.out.println("The reversed string in place is: "+ reversedString);
 	 
 	 
 	 
