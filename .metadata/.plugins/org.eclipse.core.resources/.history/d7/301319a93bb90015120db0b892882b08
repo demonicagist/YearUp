@@ -1,0 +1,12 @@
+
+public class sl {
+
+	public int L(String one){
+			
+		if (one == null)
+		{
+			return 20;
+		}
+		return one.length();
+}
+}
